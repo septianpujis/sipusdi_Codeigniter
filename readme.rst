@@ -1,70 +1,35 @@
-###################
-What is CodeIgniter
-###################
+# SiPusDi - Sistem Perpustakaan Digital
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+<img src="https://i.imgur.com/WMHzq56.gif">
 
-*******************
-Release Information
-*******************
+Latihan Pemrograman pembuatan Website Sistem Perpustakaan dengan Framework Codeigniter 3 (PHP)
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+Fitur:<br><ul>
+  <li>Login System terpusat</li>
+  <li>Level User (Pegawai(admin) dan Pembaca(user)) </li>
+  <li>Pembaca bisa melihat list buku, dan melakukan transaksi peminjaman</li>
+  <li>Pembaca bisa melihat dan mengedit profil sendiri</li>
+  <li>Pegawai bisa CRUD data buku, data user, dan data transaksi</li>
+  <li>Pegawai bisa menambah transaksi dan memilih peminjam dari semua pembaca, pembaca bisa menambah transaksi namun peminjam hanya pembaca ybs</li>
+  <li>Fitur pencarian sesuai nama(buku, user) dan tanggal(transaksi)</li>  
+</ul>
 
-**************************
-Changelog and New Features
-**************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Diagram Database, Diagram Usecase, dan Aturan dasar terlampir pada dokumen berikut: <a href="bit.ly/SipusdiRequirement">Dokumen Requirement</a>
 
-*******************
-Server Requirements
-*******************
+<hr>
 
-PHP version 5.6 or newer is recommended.
+# SiPusDi - Digital Library Website
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+Programming practice -- make website with Codeigniter 3 Framework (Python)
 
-************
-Installation
-************
+Digital Library Website have feature:<br><ul>
+  <li>Login System</li>
+  <li>User Level System (admin & user) </li>
+  <li>User can view book list dan borrow a book</li>
+  <li>User can view and edit user profil</li>
+  <li>Admin can do CRUD on book data, User data, and Transaction data</li>
+  <li>Search data (User by name, Book by title, and Transaction by date</li>
+</ul>
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+Database Diagram, Usecase diagram, description and basic rules i put on this <a href="bit.ly/SipusdiRequirement">requirement document</a> (in bahasa Indonesia)
