@@ -52,8 +52,11 @@
       </div>
       <!-- Line Chart-->
       <div class="chart col-lg-9 col-12">
-        <div class="line-chart bg-white d-flex align-items-center justify-content-center has-shadow">
-          <canvas id="lineCahrt"></canvas>
+        <div class="line-chart bg-white d-flex align-items-center flex-column has-shadow">
+          <div class="p-2"><p align="center"><img src="<?php echo base_url("assets/img/logo septi 2.png");?>" width="30%"></p></div>
+          <div class="p-2"><H1>Sistem Perpustakaan Digital</H1></div>
+          <div class="p-2"><H2>Latihan Developing Web dengan Framework Codeigniter 3 (PHP)</H2></div><br>
+          <div class="p-2"><h3>Septian Puji Saputro</h3></div>
         </div>
       </div>
     </div>
